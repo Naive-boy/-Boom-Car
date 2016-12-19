@@ -1,5 +1,4 @@
-#include <LiquidCrystal.h> //申明1602液晶的函数库
-//申明1602液晶的引脚所连接的Arduino数字端口，8线或4线数据模式，任选其一
+#include <LiquidCrystal.h> 
 //LiquidCrystal lcd(12,11,10,9,8,7,6,5,4,3,2);   //8数据口模式连线声明
 LiquidCrystal lcd(13,12,7,6,5,4,3); //4数据口模式连线声明 P13--LCD 4脚  P12--LCD 5脚  
               //P7--LCD 6脚   P6--LCD 11脚  P5--LCD 12脚  P4--LCD 13脚  P3--LCD 14脚  
